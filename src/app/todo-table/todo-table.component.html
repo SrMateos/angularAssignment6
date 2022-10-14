@@ -2,9 +2,9 @@
     <thead>
         <tr>
             <th>Id</th>
-            <th>Description</th>
-            <th>Summary</th>
-            <th></th>
+          <th>Summary</th>
+          <th>Description</th>
+          <th></th>
     </thead>
     <tbody>
         <tr *ngFor="let todo of todoArray">
@@ -15,6 +15,7 @@
         </tr>
     </tbody>
 </table>
+
 <div>
     <button (click)="refresh()">Refresh</button>
 </div>
