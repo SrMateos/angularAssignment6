@@ -1,2 +1,2 @@
 import {Todo} from "./todoInterface";
-export interface TodoList extends Array<Todo>{}
+export interface TodoArray extends Array<Todo>{}
